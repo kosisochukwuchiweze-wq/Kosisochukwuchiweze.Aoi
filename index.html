@@ -1,0 +1,17 @@
+<!DOCTYPE html><html><head><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Vote Herbert KC</title><link rel="stylesheet" href="style.css"></head><body>
+<div id="particles"></div>
+<header><img src="logo.png" class="logo"><h1>HERBERT (KC)</h1><h2>Mr Havilla & Social Icon 2026/2027</h2></header>
+<section class="hero"><img src="candidate.jpg" class="candidate">
+<div><a class="btn" href="https://wa.me/2349063850006">Vote & Support</a>
+<button class="btn" onclick="toggleMusic()">🔊 Music</button></div></section>
+<section class="card"><h2>Payment</h2>
+<img src="payment_qr.png" class="qr">
+<p><b>Access Bank</b><br>1891171859<br>Azodiro Daberechi Justice</p>
+<p>₦100 = 1 Vote | ₦1,000 = 10 Votes</p></section>
+<section class="card"><img src="flyer.jpg" class="flyer"></section>
+<audio id="bgm" loop><source src="music.mp3" type="audio/mpeg"></audio>
+<script>
+function toggleMusic(){let a=document.getElementById('bgm'); if(a.paused){a.play()}else{a.pause()}}
+for(let i=0;i<60;i++){let d=document.createElement('div');d.className='p';d.style.left=Math.random()*100+'vw';d.style.animationDuration=(5+Math.random()*10)+'s';document.getElementById('particles').appendChild(d);}
+</script></body></html>
